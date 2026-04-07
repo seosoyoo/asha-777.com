@@ -1,0 +1,210 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font optimization */
+@font-face {
+  font-family: "System Font";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap; /* Ensure text remains visible during font loading */
+  src: local("Arial");
+}
+
+@font-face {
+  font-family: "System Font";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Arial Bold");
+}
+
+:root {
+  --background: 0 0% 3.9%;
+  --foreground: 0 0% 98%;
+  --card: 0 0% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --popover: 0 0% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --primary: 47.9 95.8% 53.1%;
+  --primary-foreground: 26 83.3% 14.1%;
+  --secondary: 240 3.7% 15.9%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 0 0% 14.9%;
+  --muted-foreground: 240 5% 84.9%; /* Ditingkatkan dari 64.9% menjadi 84.9% untuk kontras lebih baik */
+  --accent: 12 6.5% 15.1%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 40.6%; /* Ditingkatkan dari 30.6% menjadi 40.6% untuk kontras lebih baik */
+  --destructive-foreground: 0 0% 98%;
+  --border: 240 3.7% 25.9%; /* Ditingkatkan dari 15.9% menjadi 25.9% untuk kontras lebih baik */
+  --input: 240 3.7% 25.9%; /* Ditingkatkan dari 15.9% menjadi 25.9% untuk kontras lebih baik */
+  --ring: 47.9 95.8% 53.1%;
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: "System Font", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  text-rendering: optimizeSpeed;
+}
+
+/* Page transitions for better UX */
+.page-transition-enter {
+  opacity: 0;
+}
+.page-transition-enter-active {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+.page-transition-exit {
+  opacity: 1;
+}
+.page-transition-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
+}
+
+/* Preload critical resources */
+body::after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  content: url("/logo-asha777.png") url("/banner/asha777-banner01.png");
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Kelas utilitas untuk kontras warna yang lebih baik */
+.text-high-contrast {
+  @apply text-white;
+}
+
+/* Perbaikan kontras */
+.text-medium-contrast {
+  @apply text-zinc-300; /* Ditingkatkan dari text-zinc-400 */
+}
+
+.text-low-contrast {
+  @apply text-zinc-400; /* Ditingkatkan dari text-zinc-500 */
+}
+
+/* Perbaikan kontras warna untuk aksesibilitas yang lebih baik */
+.text-zinc-400 {
+  color: rgb(212, 212, 216); /* Lebih terang dari default untuk kontras lebih baik */
+}
+
+.text-zinc-500 {
+  color: rgb(161, 161, 170); /* Lebih terang dari default untuk kontras lebih baik */
+}
+
+.bg-card-improved {
+  @apply bg-zinc-900 border-zinc-700; /* Border lebih terang untuk kontras lebih baik */
+}
+
+.bg-input-improved {
+  @apply bg-zinc-800 border-zinc-600; /* Border lebih terang untuk kontras lebih baik */
+}
+
+/* Perbaikan kontras untuk tombol */
+.btn-primary-improved {
+  @apply bg-yellow-500 hover:bg-yellow-600 text-black font-medium;
+}
+
+.btn-outline-improved {
+  @apply border-yellow-500 text-yellow-500 hover:bg-yellow-500/20 font-medium;
+}
+
+.btn-ghost-improved {
+  @apply text-zinc-200 hover:bg-zinc-800 hover:text-white;
+}
+
+/* Perbaikan focus states */
+:focus-visible {
+  @apply outline-2 outline-offset-2 outline-yellow-500;
+}
+
+/* Perbaikan ukuran tombol dan teks untuk mobile */
+@media (max-width: 768px) {
+  .btn,
+  button {
+    min-height: 44px; /* Minimal 44px untuk target touch yang baik */
+  }
+
+  .text-sm {
+    font-size: 1rem; /* Tingkatkan ukuran teks di mobile */
+  }
+
+  /* Perbaikan untuk touch targets di mobile */
+  .interactive-element {
+    min-width: 44px;
+    min-height: 44px;
+    padding: 12px;
+  }
+
+  /* Mengurangi CLS dengan dimensi tetap untuk gambar */
+  .image-container {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    position: relative;
+  }
+}
+
+/* Add CSS to help prevent layout shifts */
+@layer utilities {
+  /* Reserve space for images and dynamic content */
+  .image-container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Maintain aspect ratios */
+  .aspect-1-1 {
+    aspect-ratio: 1 / 1;
+  }
+
+  .aspect-4-3 {
+    aspect-ratio: 4 / 3;
+  }
+
+  .aspect-16-9 {
+    aspect-ratio: 16 / 9;
+  }
+
+  /* Prevent content jumps from font loading */
+  .font-size-stable {
+    font-size: calc(1rem + 0.01px); /* Tiny adjustment to prevent rounding issues */
+  }
+}
+
+/* Ensure footer has stable dimensions */
+footer {
+  contain: layout paint;
+  content-visibility: auto;
+}
+
+/* Prevent layout shifts from images */
+img,
+svg {
+  height: auto;
+  max-width: 100%;
+}
