@@ -33,7 +33,7 @@ export default function VIPPromotions() {
               Everyone loves a good bonus. At Asha777, they don't just hand out welcome offers they keep the rewards
               coming.
             </p>
-            <Link href="https://asha777-login.pages.dev" rel="nofollow noreferrer noopener" aria-label="Claim VIP exclusive offer">
+            <Link href="https://ash521.com/m/index.html?affiliateCode=aliance" rel="nofollow noreferrer noopener" aria-label="Claim VIP exclusive offer">
               <Button className="bg-yellow-500 hover:bg-yellow-600 text-black w-fit">Claim Offer</Button>
             </Link>
           </div>

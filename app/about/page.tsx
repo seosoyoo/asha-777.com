@@ -177,7 +177,7 @@ export default function AboutPage() {
                       rewards coming.
                     </p>
                     <Button className="bg-yellow-500 hover:bg-yellow-600 text-black w-fit">
-                      <a href="https://asha777-login.pages.dev" rel="nofollow noreferrer noopener">
+                      <a href="https://ash521.com/m/index.html?affiliateCode=aliance" rel="nofollow noreferrer noopener">
                         Claim Offer
                       </a>
                     </Button>

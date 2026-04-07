@@ -104,8 +104,8 @@ export default function RootLayout({
         <link rel="apple-touch-icon" type="image/png" href="/favicon-asha777.png" sizes="180x180" />
 
         {/* DNS Prefetch and Preconnect for important domains */}
-        <link rel="dns-prefetch" href="https://asha777-login.pages.dev" />
-        <link rel="preconnect" href="https://asha777-login.pages.dev" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://ash521.com/m/index.html?affiliateCode=aliance" />
+        <link rel="preconnect" href="https://ash521.com/m/index.html?affiliateCode=aliance" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
@@ -133,7 +133,7 @@ export default function RootLayout({
             <ClientLayout>{children}</ClientLayout>
           </Suspense>
           <Analytics />
-        <SpeedInsights />
+          <SpeedInsights />
         </div>
       </body>
     </html>

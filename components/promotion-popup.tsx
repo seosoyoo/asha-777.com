@@ -104,7 +104,7 @@ export default function PromotionPopup() {
                 </div>
               </div>
               <div className="mt-6">
-                <Link href="https://asha777-login.pages.dev" rel="nofollow noreferrer noopener" className="w-full">
+                <Link href="https://ash521.com/m/index.html?affiliateCode=aliance" rel="nofollow noreferrer noopener" className="w-full">
                   <Button className="w-full bg-yellow-500 hover:bg-yellow-600 text-black">Claim Now</Button>
                 </Link>
               </div>
@@ -174,7 +174,7 @@ export default function PromotionPopup() {
                 </div>
               </div>
               <div className="mt-6">
-                <Link href="https://asha777-login.pages.dev" rel="nofollow noreferrer noopener" className="w-full">
+                <Link href="https://ash521.com/m/index.html?affiliateCode=aliance" rel="nofollow noreferrer noopener" className="w-full">
                   <Button className="w-full bg-yellow-500 hover:bg-yellow-600 text-black">Activate Now</Button>
                 </Link>
               </div>
@@ -244,7 +244,7 @@ export default function PromotionPopup() {
                 </div>
               </div>
               <div className="mt-6">
-                <Link href="https://asha777-login.pages.dev" rel="nofollow noreferrer noopener" className="w-full">
+                <Link href="https://ash521.com/m/index.html?affiliateCode=aliance" rel="nofollow noreferrer noopener" className="w-full">
                   <Button className="w-full bg-yellow-500 hover:bg-yellow-600 text-black">Join VIP Program</Button>
                 </Link>
               </div>

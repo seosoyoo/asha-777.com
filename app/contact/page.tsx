@@ -279,7 +279,7 @@ export default function ContactPage() {
                     Our live chat agents are available around the clock to assist you with any questions or issues.
                   </p>
                   <Button className="bg-yellow-500 hover:bg-yellow-600 text-black">
-                    <a href="https://asha777-login.pages.dev" rel="nofollow noreferrer noopener">
+                    <a href="https://ash521.com/m/index.html?affiliateCode=aliance" rel="nofollow noreferrer noopener">
                       Start Live Chat
                     </a>
                   </Button>
@@ -363,7 +363,7 @@ export default function ContactPage() {
                     <h3 className="font-medium mb-3">Connect With Us</h3>
                     <div className="flex flex-wrap gap-4">
                       <a
-                        href="https://asha777-login.pages.dev"
+                        href="https://ash521.com/m/index.html?affiliateCode=aliance"
                         target="_blank"
                         rel="nofollow noopener noreferrer"
                         className="flex items-center justify-center w-12 h-12 bg-zinc-800 rounded-full hover:bg-zinc-700 transition-colors"
@@ -371,7 +371,7 @@ export default function ContactPage() {
                         <Facebook className="h-5 w-5 text-zinc-400" />
                       </a>
                       <a
-                        href="https://asha777-login.pages.dev"
+                        href="https://ash521.com/m/index.html?affiliateCode=aliance"
                         target="_blank"
                         rel="nofollow noopener noreferrer"
                         className="flex items-center justify-center w-12 h-12 bg-zinc-800 rounded-full hover:bg-zinc-700 transition-colors"
@@ -379,7 +379,7 @@ export default function ContactPage() {
                         <Twitter className="h-5 w-5 text-zinc-400" />
                       </a>
                       <a
-                        href="https://asha777-login.pages.dev"
+                        href="https://ash521.com/m/index.html?affiliateCode=aliance"
                         target="_blank"
                         rel="nofollow noopener noreferrer"
                         className="flex items-center justify-center w-12 h-12 bg-zinc-800 rounded-full hover:bg-zinc-700 transition-colors"
@@ -387,7 +387,7 @@ export default function ContactPage() {
                         <Instagram className="h-5 w-5 text-zinc-400" />
                       </a>
                       <a
-                        href="https://asha777-login.pages.dev"
+                        href="https://ash521.com/m/index.html?affiliateCode=aliance"
                         target="_blank"
                         rel="nofollow noopener noreferrer"
                         className="flex items-center justify-center w-12 h-12 bg-zinc-800 rounded-full hover:bg-zinc-700 transition-colors"

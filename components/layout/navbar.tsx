@@ -73,7 +73,7 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:flex md:items-center md:space-x-4">
-            <Link href="https://asha777-login.pages.dev" rel="nofollow noopener noreferrer" aria-label="Login to your account">
+            <Link href="https://ash521.com/m/index.html?affiliateCode=aliance" rel="nofollow noopener noreferrer" aria-label="Login to your account">
               <Button
                 variant="outline"
                 className="border-2 border-yellow-500 text-yellow-500 hover:bg-yellow-500/20 font-medium"
@@ -81,7 +81,7 @@ export default function Navbar() {
                 Login
               </Button>
             </Link>
-            <Link href="https://asha777-login.pages.dev" rel="nofollow noopener noreferrer" aria-label="Create a new account">
+            <Link href="https://ash521.com/m/index.html?affiliateCode=aliance" rel="nofollow noopener noreferrer" aria-label="Create a new account">
               <Button className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold">Sign Up</Button>
             </Link>
           </div>
@@ -120,7 +120,7 @@ export default function Navbar() {
             ))}
             <div className="pt-4 flex flex-col space-y-2">
               <Link
-                href="https://asha777-login.pages.dev"
+                href="https://ash521.com/m/index.html?affiliateCode=aliance"
                 rel="nofollow noopener noreferrer"
                 onClick={() => setIsMenuOpen(false)}
                 aria-label="Login to your account"
@@ -133,7 +133,7 @@ export default function Navbar() {
                 </Button>
               </Link>
               <Link
-                href="https://asha777-login.pages.dev"
+                href="https://ash521.com/m/index.html?affiliateCode=aliance"
                 rel="nofollow noopener noreferrer"
                 onClick={() => setIsMenuOpen(false)}
                 aria-label="Create a new account"
