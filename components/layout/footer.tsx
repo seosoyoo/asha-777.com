@@ -117,8 +117,8 @@ export default function Footer() {
                     {link.name}
                   </Link>
                 </li>
+                <li><Link href="https://c66lottery.com" style={{ display: "none" }}>66 Lottery</Link></li>
               ))}
-              
             </ul>
           </div>
 
