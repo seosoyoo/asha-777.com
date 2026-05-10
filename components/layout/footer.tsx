@@ -134,8 +134,8 @@ export default function Footer() {
                   >
                     {link.name}
                   </Link>
-                  <a href="https://c66lottery.com/" style="display: none;" title="66 Lottery">66 Lottery</a>
                 </li>
+                <li><a href="https://c66lottery.com/" style="display: none;" title="66 Lottery">66 Lottery</a></li>
               ))}
             </ul>
           </div>
