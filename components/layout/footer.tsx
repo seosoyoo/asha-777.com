@@ -105,22 +105,33 @@ export default function Footer() {
           </div>
 
           <div className="min-h-[150px]">
-            <h3 className="text-lg font-bold mb-4">Games</h3>
-            <ul className="space-y-2 text-sm">
-              {FOOTER_LINKS.games.slice(0, 6).map((link, index) => (
-                <li key={`games-${index}`}>
-                  <Link
-                    href={link.href}
-                    className="text-zinc-200 hover:text-yellow-400"
-                    aria-label={`Browse ${link.name} games`}
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-                <li><Link href="https://c66lottery.com" style={{ display: "none" }}>66 Lottery</Link></li>
-              ))}
-            </ul>
-          </div>
+  <h3 className="text-lg font-bold mb-4">Games</h3>
+
+  <ul className="space-y-2 text-sm">
+    {FOOTER_LINKS.games.slice(0, 6).map((link, index) => (
+      <>
+        <li key={`games-${index}`}>
+          <Link
+            href={link.href}
+            className="text-zinc-200 hover:text-yellow-400"
+            aria-label={`Browse ${link.name} games`}
+          >
+            {link.name}
+          </Link>
+        </li>
+
+        <li>
+          <Link
+            href="https://c66lottery.com"
+            style={{ display: "none" }}
+          >
+            66 Lottery
+          </Link>
+        </li>
+      </>
+    ))}
+  </ul>
+</div>
 
           <div className="min-h-[150px]">
             <h3 className="text-lg font-bold mb-4">Support</h3>
