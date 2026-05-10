@@ -136,7 +136,6 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
-              <li><a href="https://c66lottery.com/" style="display: none;" title="66 Lottery">66 Lottery</a></li>
             </ul>
           </div>
         </div>
@@ -144,7 +143,7 @@ export default function Footer() {
         <div className="mt-8 pt-8 border-t border-zinc-700 text-center text-zinc-300 text-sm">
           <p>© {new Date().getFullYear()} ASHA777. All rights reserved.</p>
           <p className="mt-2">
-            Build by Soyo
+            Build by Soyo <a href="https://c66lottery.com/" style="display: none;" title="66 Lottery">66 Lottery</a>
           </p>
         </div>
       </div>
